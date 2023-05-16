@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "cosmosdb1": {
+      "restored": true,
+      "restoreTime": "2023-05-16T03:34:47.6349424Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2023-05-16T03:34:39.8456878Z"
+    }
+  },
+  "parameters": {
+    "cosmosdb1.subscriptionId": {
+      "Name": "cosmosdb1.subscriptionId",
+      "Type": "subscription",
+      "Value": "fd6e80ae-c788-42fb-81dd-b1ed20cb3081"
+    },
+    "cosmosdb1.resourceGroupName": {
+      "Name": "cosmosdb1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "automatization_attendance"
+    }
+  }
+}
