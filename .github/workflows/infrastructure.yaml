@@ -12,6 +12,9 @@ jobs:
 
     env:
       WORKING_DIR: infrastructure
+      ARM_CLIENT_ID: ${{secrets.AZURE_CLIENT_ID}}
+      ARM_CLIENT_SECRET: ${{secrets.AZURE_CLIENT_SECRET}}
+      ARM_TENANT_ID: ${{secrets.AZURE_TENANT_ID}}
     
     steps:
       - name: Checkout to my branch
