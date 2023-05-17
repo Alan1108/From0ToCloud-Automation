@@ -1,10 +1,10 @@
 name: Manage Terraform Infrastructure
 on:
   push:
-    #paths:
-        #- "infrastructure/**"
+    paths:
+        - "infrastructure/**"
   pull_request: 
-    #branches: [main]
+    branches: ["a"]
 
 jobs:
   create_infrastructure:
